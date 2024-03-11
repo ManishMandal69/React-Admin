@@ -1,0 +1,18 @@
+.products{
+    display: flex;
+    flex-direction: column;
+    .info{
+      display: flex;
+      flex: 1;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+  
+      button{
+        padding: 5px;
+        cursor: pointer;
+        background-color: rgb(205, 29, 29);
+        border: none;
+      }
+    }
+  }
